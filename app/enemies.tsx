@@ -1,5 +1,4 @@
 "use client"
-
 import Image from "next/image";
 import {
   Button,
@@ -28,7 +27,7 @@ export default function Home() {
             <NavbarLink href="./app/page.tsx">Home</NavbarLink>
             <NavbarLink href="./app/about.tsx">About</NavbarLink>
             <NavbarLink href="./app/influentail.tsx">Influential</NavbarLink>
-            <NavbarLink href="/app/enemies.tsx">Enemies</NavbarLink>
+            <NavbarLink href="./app/enemies.tsx">Enemies</NavbarLink>
           </NavbarCollapse>
         </Navbar>
         </div>
@@ -49,18 +48,18 @@ export default function Home() {
         <div className="dark:bg-black flex">
           <img
             className="h-full"
-            src="./assets/luffybase2.png"
-            alt="luffy base form"
+            src="./assets/katakuri.webp"
+            alt="katakuri"
           />
           <img
             className="h-screen"
-            src="./assets/luffywano2.png"
-            alt="luffy base form"
+            src="./assets/Doflamingo.webp"
+            alt="doflamingo"
           />
           <img
             className="h-full"
-            src="./assets/luffyegghead2.png"
-            alt="luffy base form"
+            src="./assets/kaido2.png"
+            alt="kaido"
           />
         </div>
       </main>
