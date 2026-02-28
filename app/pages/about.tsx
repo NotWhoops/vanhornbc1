@@ -25,10 +25,10 @@ export default function Home() {
           </NavbarBrand>
           <NavbarToggle />
           <NavbarCollapse>
-            <NavbarLink href="./app/page.tsx">Home</NavbarLink>
-            <NavbarLink href="./app/about.tsx">About</NavbarLink>
-            <NavbarLink href="./app/influentail.tsx">Influential</NavbarLink>
-            <NavbarLink href="./app/enemies.tsx">Enemies</NavbarLink>
+            <NavbarLink href="./pages/page.tsx">Home</NavbarLink>
+            <NavbarLink href="./pages/about.tsx">About</NavbarLink>
+            <NavbarLink href="./pages/influentail.tsx">Influential</NavbarLink>
+            <NavbarLink href="./pages/enemies.tsx">Enemies</NavbarLink>
           </NavbarCollapse>
         </Navbar>
       </div>

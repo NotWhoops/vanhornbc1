@@ -15,7 +15,7 @@ export default function Home() {
     <main>
       <div className="bg-white h-52">
         <Navbar fluid rounded>
-          <NavbarBrand as={Link} href="./app/page.tsx">
+          <NavbarBrand as={Link} href="./pages/page.tsx">
             <img
               src="./assets/luffy.png"
               className="mr-3 h-6 sm:h-9"
@@ -24,10 +24,10 @@ export default function Home() {
           </NavbarBrand>
           <NavbarToggle />
           <NavbarCollapse>
-            <NavbarLink href="./app/page.tsx">Home</NavbarLink>
-            <NavbarLink href="./app/about.tsx">About</NavbarLink>
-            <NavbarLink href="./app/influentail.tsx">Influential</NavbarLink>
-            <NavbarLink href="./app/enemies.tsx">Enemies</NavbarLink>
+            <NavbarLink href="./pages/page.tsx">Home</NavbarLink>
+            <NavbarLink href="./pages/about.tsx">About</NavbarLink>
+            <NavbarLink href="./pages/influentail.tsx">Influential</NavbarLink>
+            <NavbarLink href="./pages/enemies.tsx">Enemies</NavbarLink>
           </NavbarCollapse>
         </Navbar>
       </div>
